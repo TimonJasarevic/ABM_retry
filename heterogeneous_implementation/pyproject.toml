@@ -1,0 +1,13 @@
+[project]
+name = "revised-misinformation-abm"
+version = "0.1.0"
+description = "Student misinformation ABM derived from the legacy implementation"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "mesa>=3.5,<4",
+    "networkx>=3.6,<4",
+    "numpy>=2.4,<3",
+    "pandas>=3.0,<4",
+    "matplotlib>=3.11,<4",
+    "salib>=1.6.0",
+]
