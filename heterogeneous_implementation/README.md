@@ -10,13 +10,13 @@ Requires Python 3.12–3.14 and `uv`. From the repository root:
 
 ```bash
 cd heterogeneous_implementation
-uv run python src/simulation.py --rounds 1000
+uv run python src/simulation.py --rounds 50000
 ```
 
 This opens the network and results plots. For a run without windows that saves the results:
 
 ```bash
-uv run python src/simulation.py --headless --rounds 1000 --output-dir results/my_run
+uv run python src/simulation.py --headless --rounds 50000 --output-dir results/my_run
 ```
 
 The output folder contains `history.csv`, `results.png` and `heterogeneity.png`. Choose a new folder to keep previous outputs.
